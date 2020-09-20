@@ -11,14 +11,6 @@
     #include <sys/types.h>
     #include <netinet/in.h>
     #include <arpa/inet.h>
-    printf("  _  __         _             ____                    
- | |/ /        | |           / __ \                   
- | ' / __ _ ___| |__   ___  | |  | | __ _ _   _  __ _ 
- |  < / _` / __| '_ \ / _ \ | |  | |/ _` | | | |/ _` |
- | . \ (_| \__ \ | | |  __/ | |__| | (_| | |_| | (_| |
- |_|\_\__,_|___/_| |_|\___|  \___\_\\__,_|\__, |\__,_|
-                                           __/ |      
-                                          |___/       "); 
     int make_socket(char *host, char *port) {
             struct addrinfo hints, *servinfo, *p;
             int sock, r;

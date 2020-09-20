@@ -5,7 +5,7 @@ A Powerful DDOS Tool, Its Super Power And Easy To Use.
 Step 1.   After Cloning The Repository <br />
 Step 2.   cd KasheQaya <br />
 Step 3.   Give The KasheQaya File Permission To Be Executed, To Do That Type In The Command chmod +x KasheQaya <br />
-Step 4.   After Setting The Permission Compile The Script Using The Command gcc -o KasheQaya <br />
+Step 4.   After Setting The Permission Compile The Script Using The Command <tt>gcc -o KasheQaya.c </tt><br />
 Step 5.   Now All Is Set. Use The Below Syntax To Fire On. <br />
 
   <h4> ./KasheQaya HOST/IP PORT </h4><br />

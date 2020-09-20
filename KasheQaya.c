@@ -11,11 +11,18 @@
     #include <sys/types.h>
     #include <netinet/in.h>
     #include <arpa/inet.h>
-     
+    printf("  _  __         _             ____                    
+ | |/ /        | |           / __ \                   
+ | ' / __ _ ___| |__   ___  | |  | | __ _ _   _  __ _ 
+ |  < / _` / __| '_ \ / _ \ | |  | |/ _` | | | |/ _` |
+ | . \ (_| \__ \ | | |  __/ | |__| | (_| | |_| | (_| |
+ |_|\_\__,_|___/_| |_|\___|  \___\_\\__,_|\__, |\__,_|
+                                           __/ |      
+                                          |___/       "); 
     int make_socket(char *host, char *port) {
             struct addrinfo hints, *servinfo, *p;
             int sock, r;
-    //      fprintf(stderr, "[Setting Up Connection With -> %s:%s\n", host, port);
+            fprintf(stderr, "[Setting Up Connection With -> %s:%s\n", host, port);
             memset(&hints, 0, sizeof(hints));
             hints.ai_family = AF_UNSPEC;
             hints.ai_socktype = SOCK_STREAM;
